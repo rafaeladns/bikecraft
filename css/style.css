@@ -1,4 +1,91 @@
-h1{
-  color: blue;
-  background-color: yellow;
+/*Algumas alterações para resetar o layout padrão do navegador*/
+body{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*Header*/
+.header-bg{
+  background-color: #000000;
+}
+
+.header-container{
+  display: flex;
+  flex-wrap: wrap; /*Quebra de linha para baixo*/
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px; /*Espaçamento entre itens*/
+}
+
+.header-menu a{
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 16px 0px;
+  font-size: 18px;
+  position: relative;
+}
+
+/*Sublinhado botões do header*/
+.header-menu a:after{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background-color: #FFFFFF;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-menu a:hover:after{
+  width: 100%;
+}
+
+@media(max-width: 800px){
+  .header-menu{
+    gap: 20px;
+  }
+  .header-menu a{
+    background-color: #111111;
+    padding: 12px 16px;
+    border-radius: 4px;
+  }
+  .header-menu a:hover{
+    background-color: #2E2E2E;
+  }
+  
+  .header-container a:after{
+    display: none;
+  }
+}
+
+@media(max-width: 400px){
+  .header-menu{
+    gap: 12px;
+  }
+  .header-menu a{
+    padding: 8px 12px;
+    font-size: 14px;
+  }
 }
