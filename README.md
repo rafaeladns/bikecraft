@@ -5,7 +5,7 @@
 
  - ⚙️ Funcionalidades:
 
- - 🚀 Executando o projeto:
+ - 🚀 Como executar o projeto:
 
 
 # Ferramentas utilizadas no projeto: 
