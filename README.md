@@ -1,11 +1,11 @@
 # bikecraft
-🚲 - bikecraft: Em andamento 🧭	
+ - 🚲 bikecraft: Em andamento 🧭	
 
-💻 - Sobre o Projeto:
+ - 💻 Sobre o Projeto:
 
-⚙️ - Funcionalidades:
+ - ⚙️ Funcionalidades:
 
-🚀 - Executando o projeto:
+ - 🚀 Executando o projeto:
 
 
 # Ferramentas utilizadas no projeto: 
