@@ -4,10 +4,14 @@
 @import"../css/utilidades/tipografia.css";
 @import"../css/utilidades/cores.css";
 
+/*Utilidades*/
+@import"../css/utilidades/componentes.css";
+
 /*Página home*/
 @import"../css/home/introducao.css";
 
-/*Utilidades*/
-@import"../css/utilidades/componentes.css";
+/*Bicicletas*/
+@import"../css/bicicletas/bicicletas-lista.css";
+
 
 
