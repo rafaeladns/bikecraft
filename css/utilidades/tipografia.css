@@ -1,13 +1,82 @@
-.texto-grande{
-  font-size: 64px;
-  line-height: 1.125;
-  font-family: 'Poppins';
+/*Fontes das menores para as maiores em sequência*/
+/* 1 poppins e 2 roboto*/
+.font-1-xs{
+  /*Para conversão da fonte em px usei o cálculo da font size em px dividido pelo valor da line-height, arredondando para 1.35(16/12 = 1.3333) e para o rem (12/16 = 75)*/
+  font: 400 0.75rem/1.35 'Poppins', sans-serif;
+  /*Peso fonte, tamanho, line-height e font-family*/
+}
+
+.font-2-xs{
+    /*Todas configurações relacionadas a fonte*/
+  font: 400 0.875rem/1.43 'Roboto', sans-serif;
+}
+
+.font-1-s{
+  font: 400 1rem/1.5 'Poppins', sans-serif;
+}
+
+.font-2-s{
+  font: 400 1rem/1.5 'Roboto', sans-serif;  
+}
+
+.font-1-m,
+.font-1-m-b{ /*font-1-b*/
+  font: 400 1.125rem/1.35 'Poppins', sans-serif;  
+}
+.font-1-m-b{
   font-weight: 600;
 }
 
-.texto-medio{
-  font-size: 24px;
-  line-height: 1.5;
-  font-family: 'Roboto';
-  font-weight: 400;
+.font-2-m{
+  font: 500 1.125rem/1.35 'Roboto', sans-serif;
+}
+
+.font-1-l{
+  font: 400 1.5rem/1.5 'Poppins', sans-serif;
+}
+
+.font-2-l,
+.font-2-l-b{
+  font: 400 1.5rem/1.5 'Roboto', sans-serif;
+}
+
+.font-2-l-b{
+  font-weight: 500;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.font-1-xl{
+  font: 600 2rem/1.25 'Poppins', sans-serif;
+}
+
+.font-2-xl{
+  font: 500 2rem/1.25 'Roboto', sans-serif;
+}
+
+.font-1-xxl{
+  font: 600 4rem/1.125/*line-height escrever em barra*/'Poppins', sans-serif;
+}
+
+/*Fontes do responsivo*/
+@media(max-width:1200px){
+  .font-1-xxl{
+    font-size: 3rem; /* Mudar tamanho da fonte do h1 para não haver quebra de linha*/
+  }
+
+  .font-2-l,
+  .font-2-l-b {
+    font-size: 1.125rem;
+  }
+}
+
+@media(max-width:800px){
+  .font-1-xxl{
+    font-size: 2rem;
+  }
+
+  .font-1-xl,
+  .font-2-xl{
+    font-size: 1.5rem;
+  }
 }
