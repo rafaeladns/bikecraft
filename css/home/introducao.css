@@ -1,8 +1,8 @@
 /*Main*/
 .introducao-bg{
-  background-color: #000000;
-  color: #FFFFFF;
-  box-shadow: inset 0px -120px #FFFFFF; /*Irá fazer a ilusão fazendo parecer que a imagem está vazando*/
+  background-color: var(--cor--12);
+  color: var(--cor--0);
+  box-shadow: inset 0px -120px var(--cor--0); /*Irá fazer a ilusão fazendo parecer que a imagem está vazando*/
 }
 
 .introducao{
@@ -31,24 +31,10 @@
 
 .introducao h1{
   margin-bottom: 32px;
-  font-size: 64px;
-  line-height: 1.125;
-  font-family: 'Poppins';
-  font-weight: 600;
-}
-
-.introducao h1 span{
-  color: #FFBB00;
 }
 
 .introducao p{
-  margin-bottom: 20px;
-  font-size: 24px;
-  line-height: 1.5;
-  color: #B2B2B2;
-  font-family: 'Roboto';
-  font-weight: 400;
-
+  margin-bottom: 20px; 
 }
 
 @media(max-width:1200px){
@@ -63,9 +49,9 @@
 
 @media(max-width:800px){
   .introducao-bg{
-    background-color: #111111;
+    background-color: var(--cor--11);
     padding-top: 40px;
-    box-shadow: inset 0 -60px #FFFFFF;
+    box-shadow: inset 0 -60px  var(--cor--0);
   }
 
   .introducao{
