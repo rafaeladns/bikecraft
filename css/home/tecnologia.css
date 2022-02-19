@@ -1,0 +1,16 @@
+.tecnologia-bg{
+  background-color: var(--cor--11);
+}
+
+.tecnologia{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.tecnologia-imagem img{
+  width: 100%;
+  height: 100%; /*Para que a imagem tenha a altura máxima*/
+  object-fit: cover; /*Impedir que a foto fique achatada*/
+  object-position: left;
+}
