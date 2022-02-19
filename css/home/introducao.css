@@ -2,7 +2,7 @@
 .introducao-bg{
   background-color: var(--cor--12);
   color: var(--cor--0);
-  box-shadow: inset 0px -120px var(--cor--0); /*Irá fazer a ilusão fazendo parecer que a imagem está vazando*/
+  box-shadow: inset 0px -120px var(--cor--0),inset 0px -120px var(--cor--0); /*Irá fazer a ilusão fazendo parecer que a imagem está vazando*/
 }
 
 .introducao{
