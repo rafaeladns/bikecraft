@@ -7,14 +7,12 @@
 /*Utilidades*/
 @import"../css/utilidades/componentes.css";
 
-/*Página home*/
-@import"../css/home/introducao.css";
-
 /*Bicicletas*/
 @import"../css/bicicletas/bicicletas-lista.css";
-
-/*Tecnologia*/
+/*Página home*/
+@import"../css/home/introducao.css";
 @import"../css/home/tecnologia.css";
+@import"../css/home/parceiros.css";
 
 
 
