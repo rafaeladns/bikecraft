@@ -1,6 +1,9 @@
 /*Importando tudo diretamente no style*/
 @import"../css/global/header.css";
+@import"../css/global/footer.css";
 @import"../css/global/global.css";
+
+
 @import"../css/utilidades/tipografia.css";
 @import"../css/utilidades/cores.css";
 
