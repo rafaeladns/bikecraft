@@ -9,11 +9,17 @@
 
 /*Bicicletas*/
 @import"../css/bicicletas/bicicletas-lista.css";
+
 /*Página home*/
 @import"../css/home/introducao.css";
 @import"../css/home/tecnologia.css";
 @import"../css/home/parceiros.css";
 @import"../css/home/depoimento.css";
+
+/*Seguros*/
+@import"../css/seguros/seguros.css";
+
+
 
 
 

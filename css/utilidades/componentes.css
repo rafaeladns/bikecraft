@@ -17,10 +17,20 @@
   text-transform: uppercase;
   color: var(--cor--p5);
   font: 600 1.125rem/1.35 'Poppins', sans-serif;  
+  max-width: max-content; /*sempre o tamanho máximo do botão*/
 }
 
 .botao:hover{
   background: linear-gradient(#FFB60D, #E59317);
+}
+
+.botao.secundario{ /*Tiver a classe botao e secundário no elemento*/
+  background: var(--cor--10);
+  color: var(--cor--2);
+}
+
+.botao.secundario:hover{
+  background: var(--cor--9);
 }
 
 @media(max-width:600px){
