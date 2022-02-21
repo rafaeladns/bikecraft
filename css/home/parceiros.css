@@ -46,6 +46,10 @@
   .parceiros ul {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .parceiros li{
+    padding: 20px;
+  }
   .parceiros li:nth-child(n + 3){ /*Pegando elementos a partir do quinto item*/
     border-top: 2px solid var(--cor--3);
   }
