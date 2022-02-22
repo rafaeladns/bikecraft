@@ -12,6 +12,7 @@
 
 /*Bicicletas*/
 @import"../css/bicicletas/bicicletas-lista.css";
+@import"../css/bicicletas/bicicletas.css";
 
 /*Página home*/
 @import"../css/home/introducao.css";
