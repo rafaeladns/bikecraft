@@ -16,4 +16,5 @@
 .termos p{
   max-width: 75ch;
   margin-bottom: 24px;
+  line-height: 200%;
 }
