@@ -18,7 +18,9 @@
   overflow-x: auto; /*Cria barra de scroll caso necessário somente no eixo x*/
   -webkit-overflow-scrolling: touch;
 }
-
+#bicicleta .bicicletas-lista ul{
+  padding: 0px 0px 20px 0px;
+}
 .bicicletas-lista li{
   flex: 1;
   min-width: 280px;
