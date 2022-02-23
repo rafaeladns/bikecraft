@@ -9,6 +9,7 @@
 
 /*Utilidades*/
 @import"../css/utilidades/componentes.css";
+@import"../css/utilidades/formulario.css";
 
 /*Bicicletas*/
 @import"../css/bicicletas/bicicletas-lista.css";
@@ -28,6 +29,10 @@
 @import"../css/seguros/seguros.css";
 @import"../css/seguros/vantagens.css";
 @import"../css/seguros/perguntas.css";
+
+/*Contato*/
+@import"../css/contato/contato.css";
+@import"../css/contato/lojas.css";
 
 /*Termos*/
 @import"../css/termos/termos.css";
