@@ -38,5 +38,28 @@ function ativarPergunta(event){
 function eventosPerguntas(pergunta){
   pergunta.addEventListener('click', ativarPergunta);
 }
-perguntas.forEach(eventosPerguntas)
+perguntas.forEach(eventosPerguntas);
+
+//Galeria de bicicletas//
+const galeria = document.querySelectorAll('.bicicleta-imagens img'); //Selecionar cada uma das imagens dentro da div .bicicleta-imagens//
+
+//Selecionar o container que envolve as imagens//
+const galeriaContainer = document.querySelector('.bicicleta-imagens');
+
+//Adicionar evento de click a cada item da galeria//
+function trocarImagem(evento){
+  const img = evento.currentTarget;
+  const media = matchMedia('(min-width:1000px)').matches; //Informando que a partir de 1000 px não é para alterar a ordem das imagens//
+  //Fazendo a verificação primeiro para ativar ou não o prepend//
+  if(media){ //Se media for maior que 1000px ativar a troca de imagens da galeria//
+    galeriaContainer.prepend(img);
+  }
+  
+}
+
+function eventosGaleria(img){
+  img.addEventListener('click', trocarImagem);
+}
+
+galeria.forEach(eventosGaleria);
 
