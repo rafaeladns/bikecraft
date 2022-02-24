@@ -11,3 +11,16 @@ function ativarLink(link){
   }
 }
 links.forEach(ativarLink);
+
+//Ativar itens do orçamento e bikcraft e deixar checado quando selecionar algum seguro ou bicicleta para fazer orçamento//
+const parametros = new URLSearchParams(location.search);
+function ativarProduto(parametro){
+  const elemento = document.getElementById(parametro);
+  if(elemento){
+    elemento.checked = true;
+  }
+  
+  console.log(elemento);
+}
+parametros.forEach(ativarProduto);
+
