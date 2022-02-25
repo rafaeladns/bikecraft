@@ -1,3 +1,4 @@
+
 let botao = document.querySelector("form button");
 botao.addEventListener("click", validaFormulario)
 
@@ -8,9 +9,14 @@ form.addEventListener('submit', (e)=>{
 }); 
 
 const inputs = document.querySelectorAll("form input");
+let inputList = [];
+[].forEach.call(inputs, function(item) { 
+  inputList.push(item)
+ });
+
 function validaFormulario() {
-  let campoVazio = inputs.find(element => element.value.length < 1);
-  if(campoVazio == undefined){
+  let campoVazio = inputList.find(element => element.value.length < 1);
+  if(campoVazio != undefined){
     botao.textContent = 'Dados incorretos!'
   }else{
     botao.textContent = 'Dados Enviados!'
