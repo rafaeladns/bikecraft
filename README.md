@@ -1,5 +1,5 @@
 # 🚲 bikcraft
- ## Projeto bikcraft: Em andamento ⏳	
+ ## Projeto bikcraft: Em andamento ✔️
 
  ## 💻 Sobre o Projeto:
 
