@@ -77,22 +77,22 @@
         <form class="form" action="./contato.html">
           <div>
             <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" placeholder="Insira seu nome">
+            <input type="text" id="nome" name="nome" placeholder="Insira seu nome" required>
           </div>
 
           <div>
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx">
+            <input type="text" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" required>
           </div>
 
           <div class="col-2">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="contato@exemplo.com">
+            <input type="email" id="email" name="email" placeholder="contato@exemplo.com" required>
           </div>
 
           <div class="col-2">
             <label for="mensagem">Mensagem</label>
-            <textarea rows="5" id="mensagem" name="mensagem" placeholder="Insira aqui sua mensagem."></textarea>
+            <textarea rows="5" id="mensagem" name="mensagem" placeholder="Insira aqui sua mensagem." required></textarea>
           </div>
 
           <button class="col-2 botao">
@@ -182,6 +182,7 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
-<script src="./js/script.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/formulario.js"></script>
   </body>
 </html>
