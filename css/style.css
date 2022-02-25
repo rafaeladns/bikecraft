@@ -2,14 +2,14 @@
 @import"../css/global/header.css";
 @import"../css/global/footer.css";
 @import"../css/global/global.css";
-
-
 @import"../css/utilidades/tipografia.css";
 @import"../css/utilidades/cores.css";
 
+@import"./utilidades/animacao.css";
+
+
 /*Utilidades*/
 @import"../css/utilidades/componentes.css";
-@import"../css/utilidades/formulario.css";
 
 /*Bicicletas*/
 @import"../css/bicicletas/bicicletas-lista.css";

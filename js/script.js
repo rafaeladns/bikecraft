@@ -63,3 +63,9 @@ function eventosGaleria(img){
 
 galeria.forEach(eventosGaleria);
 
+//Utilizando plugin para fazer animação//
+//Verificar se tem o plugin na página//
+if(window.SimpleAnime){
+  new SimpleAnime(); //Se isso existir na página carregar o plugin//
+}
+
