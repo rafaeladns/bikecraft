@@ -2,6 +2,7 @@
  ## Projeto bikcraft: Concluído ✔️
 
  ## 💻 Sobre o Projeto:
+ Projeto proposto pela Origamid. O intuito do projeto era criar um site fictício de bicicletas elétricas do 0. Apenas com HTML, CSS e Javascript sem utilização de frameworks.
 
  ## ⚙️ Funcionalidades:
 
